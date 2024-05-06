@@ -21,14 +21,14 @@
   </div>
 	 <div class="mb-3 col-4">
     <label for="last-name-input" class="form-label">Last Name</label>
-    <input type="text" class="form-control" id="last-name-input">
+    <input type="text" class="form-control" id="last-name-input" required>
    </div>
 	  <div class="invalid-feedback">
       Last Name Required!
       </div>
 
 	<div class="mb-3 col-4" >
-    <label for="email-input" class="form-label">Email address</label>
+    <label for="email-input" class="form-label">Email Address</label>
     <input type="email" class="form-control" id="email-input">
     </div>
 	  <div class="invalid-feedback">
@@ -51,8 +51,8 @@
 
 	
     <div class="mb-3 col-3">
-    <label for="graduation-year" class="form-label">Graduation Year</label>
-	<select id="graduation-year" class="form-select">
+    <label for="grad-year-select" class="form-label">Graduation Year</label>
+	<select id="grad-year-select" class="form-select">
 		 <option selected disabled value="">Choose...</option>
         <option>2020</option>
 		<option>2021</option>
@@ -79,8 +79,8 @@
 
 	
   <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Agree to terms and conditions</label>
+    <input type="checkbox" class="form-check-input" id="conditions-checkbox">
+    <label class="form-check-label" for="conditions-checkbox">Agree to terms and conditions</label>
   </div>
 
   <button type="submit" class="btn btn-primary">Submit Form</button>
